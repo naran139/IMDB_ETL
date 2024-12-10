@@ -1,0 +1,31 @@
+[2024-12-02T05:44:18.235+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-02T05:44:18.300+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: IMDB_DAG.load manual__2024-12-02T05:44:04.394683+00:00 [queued]>
+[2024-12-02T05:44:18.328+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: IMDB_DAG.load manual__2024-12-02T05:44:04.394683+00:00 [queued]>
+[2024-12-02T05:44:18.331+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2024-12-02T05:44:18.387+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): load> on 2024-12-02 05:44:04.394683+00:00
+[2024-12-02T05:44:18.450+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'IMDB_DAG', 'load', 'manual__2024-12-02T05:44:04.394683+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpmjip7kla']
+[2024-12-02T05:44:18.509+0000] {standard_task_runner.py:105} INFO - Job 25: Subtask load
+[2024-12-02T05:44:18.522+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=10780) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-02T05:44:18.528+0000] {standard_task_runner.py:72} INFO - Started process 10798 to run task
+[2024-12-02T05:44:18.870+0000] {task_command.py:467} INFO - Running <TaskInstance: IMDB_DAG.load manual__2024-12-02T05:44:04.394683+00:00 [running]> on host 7907820bdc36
+[2024-12-02T05:44:19.497+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='IMDB_DAG' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-12-02T05:44:04.394683+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-02T05:44:04.394683+00:00'
+[2024-12-02T05:44:19.513+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-02T05:44:19.516+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-02T05:44:19.528+0000] {logging_mixin.py:190} INFO - Current task name:load state:running start_date:2024-12-02 05:44:18.302160+00:00
+[2024-12-02T05:44:19.531+0000] {logging_mixin.py:190} INFO - Dag name:IMDB_DAG and current dag run status:running
+[2024-12-02T05:44:19.532+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-02T05:44:20.390+0000] {logging_mixin.py:190} INFO - An error occured while creating dim_genre {e}
+[2024-12-02T05:44:20.400+0000] {logging_mixin.py:190} INFO - An error Occured while creating dim_country Table temp_dim_country not found
+[2024-12-02T05:44:20.423+0000] {logging_mixin.py:190} INFO - An error Occured while creating dim_director Table temp_dim_director not found
+[2024-12-02T05:44:20.434+0000] {logging_mixin.py:190} INFO - An error occured while creating dim_details {e}
+[2024-12-02T05:44:20.447+0000] {logging_mixin.py:190} INFO - An error occured while creating fact_table {e}
+[2024-12-02T05:44:20.449+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-02T05:44:20.498+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-02T05:44:20.502+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=IMDB_DAG, task_id=load, run_id=manual__2024-12-02T05:44:04.394683+00:00, execution_date=20241202T054404, start_date=20241202T054418, end_date=20241202T054420
+[2024-12-02T05:44:20.546+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-02T05:44:20.548+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-02T05:44:20.550+0000] {logging_mixin.py:190} INFO - Dag name:IMDB_DAG queued_at:2024-12-02 05:44:04.537002+00:00
+[2024-12-02T05:44:20.554+0000] {logging_mixin.py:190} INFO - Task hostname:7907820bdc36 operator:PythonOperator
+[2024-12-02T05:44:20.632+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-02T05:44:20.736+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-02T05:44:20.744+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

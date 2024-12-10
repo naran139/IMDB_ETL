@@ -1,0 +1,28 @@
+[2024-12-09T05:59:26.958+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-09T05:59:27.026+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: IMDB_testing_DAG.extract manual__2024-12-09T05:59:22.835866+00:00 [queued]>
+[2024-12-09T05:59:27.065+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: IMDB_testing_DAG.extract manual__2024-12-09T05:59:22.835866+00:00 [queued]>
+[2024-12-09T05:59:27.066+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 3
+[2024-12-09T05:59:27.105+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): extract> on 2024-12-09 05:59:22.835866+00:00
+[2024-12-09T05:59:27.138+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'IMDB_testing_DAG', 'extract', 'manual__2024-12-09T05:59:22.835866+00:00', '--job-id', '136', '--raw', '--subdir', 'DAGS_FOLDER/etl.py', '--cfg-path', '/tmp/tmpl_btlqzh']
+[2024-12-09T05:59:27.138+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=968) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-09T05:59:27.142+0000] {standard_task_runner.py:105} INFO - Job 136: Subtask extract
+[2024-12-09T05:59:27.142+0000] {standard_task_runner.py:72} INFO - Started process 1005 to run task
+[2024-12-09T05:59:27.352+0000] {task_command.py:467} INFO - Running <TaskInstance: IMDB_testing_DAG.extract manual__2024-12-09T05:59:22.835866+00:00 [running]> on host b603df6112bf
+[2024-12-09T05:59:27.522+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='IMDB_testing_DAG' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2024-12-09T05:59:22.835866+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-09T05:59:22.835866+00:00'
+[2024-12-09T05:59:27.526+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-09T05:59:27.527+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-09T05:59:27.528+0000] {logging_mixin.py:190} INFO - Current task name:extract state:running start_date:2024-12-09 05:59:27.028530+00:00
+[2024-12-09T05:59:27.529+0000] {logging_mixin.py:190} INFO - Dag name:IMDB_testing_DAG and current dag run status:running
+[2024-12-09T05:59:27.529+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-09T05:59:27.674+0000] {logging_mixin.py:190} INFO - An error Occured during getting data from apiHTTPSConnectionPool(host='api.apify.com', port=443): Max retries exceeded with url: /v2/datasets/6v7wMjCoJEvcg4hZ2/items?token=apify_api_cVz6ZO0XzuFK70IYRkB66jMJAqMjFF1SppIy (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fbda4755a00>: Failed to resolve 'api.apify.com' ([Errno -5] No address associated with hostname)"))
+[2024-12-09T05:59:27.692+0000] {logging_mixin.py:190} INFO - Saving to staging area failed "None of [Index(['id', 'titleType', 'titleText', 'certificate', 'releaseDate', 'runtime',\n       'genres', 'directors', 'ratingsSummary', 'productionBudget',\n       'worldwideGross'],\n      dtype='object')] are in the [columns]"
+[2024-12-09T05:59:27.693+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-09T05:59:27.708+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-09T05:59:27.709+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=IMDB_testing_DAG, task_id=extract, run_id=manual__2024-12-09T05:59:22.835866+00:00, execution_date=20241209T055922, start_date=20241209T055927, end_date=20241209T055927
+[2024-12-09T05:59:27.724+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-09T05:59:27.725+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-09T05:59:27.727+0000] {logging_mixin.py:190} INFO - Dag name:IMDB_testing_DAG queued_at:2024-12-09 05:59:22.873246+00:00
+[2024-12-09T05:59:27.728+0000] {logging_mixin.py:190} INFO - Task hostname:b603df6112bf operator:PythonOperator
+[2024-12-09T05:59:27.775+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-09T05:59:27.829+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-09T05:59:27.834+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

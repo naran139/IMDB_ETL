@@ -1,0 +1,49 @@
+[2024-12-09T05:58:10.200+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/etl.py
+[2024-12-09T05:58:10.202+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T05:58:10.207+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:58:10.206+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T05:58:10.547+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T05:58:10.601+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:58:10.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T05:58:10.667+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:58:10.667+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T05:58:10.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.526 seconds
+[2024-12-09T05:58:41.358+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/etl.py
+[2024-12-09T05:58:41.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T05:58:41.369+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:58:41.369+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T05:58:41.727+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T05:58:41.776+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:58:41.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T05:58:41.834+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:58:41.833+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T05:58:41.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.531 seconds
+[2024-12-09T05:59:12.550+0000] {processor.py:186} INFO - Started process (PID=808) to work on /opt/airflow/dags/etl.py
+[2024-12-09T05:59:12.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T05:59:12.555+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:59:12.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T05:59:12.196+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T05:59:12.224+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:59:12.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T05:59:12.268+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:59:12.268+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T05:59:12.294+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.238 seconds
+[2024-12-09T05:59:42.425+0000] {processor.py:186} INFO - Started process (PID=1113) to work on /opt/airflow/dags/etl.py
+[2024-12-09T05:59:42.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T05:59:42.430+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:59:42.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T05:59:42.554+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T05:59:42.580+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:59:42.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T05:59:42.611+0000] {logging_mixin.py:190} INFO - [2024-12-09T05:59:42.610+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T05:59:42.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.236 seconds
+[2024-12-09T06:00:12.875+0000] {processor.py:186} INFO - Started process (PID=1410) to work on /opt/airflow/dags/etl.py
+[2024-12-09T06:00:12.877+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T06:00:12.880+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:00:12.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T06:00:12.995+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T06:00:13.021+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:00:13.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T06:00:13.051+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:00:13.050+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T06:00:13.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.212 seconds
+[2024-12-09T06:00:43.227+0000] {processor.py:186} INFO - Started process (PID=1710) to work on /opt/airflow/dags/etl.py
+[2024-12-09T06:00:43.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T06:00:43.231+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:00:43.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T06:00:43.358+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T06:00:43.382+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:00:43.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T06:00:43.419+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:00:43.418+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T06:00:43.446+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.228 seconds
+[2024-12-09T06:01:14.136+0000] {processor.py:186} INFO - Started process (PID=2001) to work on /opt/airflow/dags/etl.py
+[2024-12-09T06:01:14.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-12-09T06:01:14.146+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:01:14.145+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-12-09T06:01:14.835+0000] {processor.py:925} INFO - DAG(s) 'IMDB_testing_DAG' retrieved from /opt/airflow/dags/etl.py
+[2024-12-09T06:01:14.930+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:01:14.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-09T06:01:15.069+0000] {logging_mixin.py:190} INFO - [2024-12-09T06:01:15.068+0000] {dag.py:4180} INFO - Setting next_dagrun for IMDB_testing_DAG to 2024-12-09 00:00:00+00:00, run_after=2024-12-10 00:00:00+00:00
+[2024-12-09T06:01:15.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 1.045 seconds
